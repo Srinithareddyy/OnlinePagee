@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>devtown</title>
+        <link rel="stylesheet" href="study5.css">
+    </head>
+    <body>
+        <div class="fourth">
+            <h1>DevTown </h1>
+            <br>
+            <br>
+            <p>Devtown's digital presence is a vibrant ecosystem where students, educators, and industry experts
+                 come together to share knowledge, collaborate, and inspire one another. From insightful YouTube tutorials 
+                 to engaging discussions on Telegram, we've created spaces that foster learning and growth.</p>
+                 <br>
+                 <br>
+                 <p class="pp"><b>Here are few references if you want</b></p>
+                 <br>
+                 <div class="inside">
+                    <a href="https://www.devtown.in/bootcamp/7-Day-Immersive-Free-Bootcamp" target="_Self"><button>BootCamps</button></a>
+                    <br>
+                    <a href="https://www.devtown.in/about-us" target="_self"><button>About Devtown</button></a>
+                    <br>
+                    <div class="sel">
+                    <button>
+                    <label>Select a course</label> &nbsp; &nbsp; 
+                    <select id="linkSelect" onchange="openLink()">
+                       <option value="">Select an option</option>
+                       <option value="https://www.devtown.in/course/Cyber-Security-Training-Program">Cyber Security Training Program</option>
+                       <option value="https://www.devtown.in/course/Data-Structures-and-Algorithms">Data Structures and Algorithm</option>
+                       <option value="https://www.devtown.in/course/Data-Science-Training-Program">Data Science Training Program</option>
+                       <option value="https://www.devtown.in/course/Competitive-Programming">Competitive Programming</option>
+
+                    </select>
+
+    <script>
+        function openLink() {
+            var select = document.getElementById("linkSelect");
+            var url = select.value;
+            if (url) {
+                window.location.href = url;
+            }
+        }
+    </script>
+                    </button>
+                    </div>
+                 </div>
+        
+        <br>
+        <br>
+        <nav>
+            <a href="study2.html"><button class="bt">Go To W3Schools</button></a>
+            <a href="study3.html"><button class="bt">Go To Geeks for Geeks</button></a>
+            <a href="study4.html"><button class="bt">Go To Java T point</button></a>
+        </nav>
+        <br>
+        <p class="par"><b>Do you like my content?</b></p>
+            <br>
+            <br>
+            <div>
+                <a href="C:\Users\srini\Downloads\thanks.png"><button class="btnn">Yes, I loved it!</button></a>
+                <a href="C:\Users\srini\Downloads\sorry.jpeg"><button class="btnn">No </button> </a>
+            </div>
+        
+        </div>
+    </body>
+</html>
+
